@@ -1,9 +1,9 @@
 # shadowsocks_n900
 # shadowsocks-libev for Nokia N900 Device
 
-I build it and looks like it can run on N900 device.
+It can work on N900 device.
 
-If you need it, you can try it like below.
+Please try it as below.
 
 1. Download  target_rootfs_n900.tgz to N900 Device.
 2. tar xvzf target_rootfs_n900.tgz -C /opt/
