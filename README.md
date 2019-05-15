@@ -23,6 +23,8 @@
   . Run ldconfig
   
   . You can run /opt/target_rootfs/bin/ss-* programs now.
+ 
+ 3. If you like this, please star it!
   
 
 thanks.
