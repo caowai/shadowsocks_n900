@@ -125,12 +125,12 @@ clean:
 	rm -f $(OBJS)
 	rm -f $(SOBJS)
 	rm -f $(UOBJS)
-	rm -f config.log
 	rm -f $(LIB) $(SOLIB) $(SOLIBV)
+	rm -f config.log
 distclean: clean
 	rm -f $(LIB) $(SOLIB) $(SOLIBV) udns.3.html
 	rm -f $(UTILS) $(SOUTILS)
-	rm -f config.status config.h Makefile
+	#rm -f config.status config.h Makefile
 
 
 Makefile: configure configure.lib Makefile.in
@@ -139,8 +139,9 @@ Makefile: configure configure.lib Makefile.in
 	@echo Please rerun make >&2
 	@exit 1
 
-.PHONY: all static staticlib shared sharedlib dist clean distclean subdist \
-  depend dep deps
+.PHONY: all static staticlib shared sharedlib dist clean distclean subdist 
+	
+#  depend dep deps
 
 depend dep deps: $(SRCS) $(USRC)
 	@echo Generating deps for:
