@@ -1,0 +1,159 @@
+ss_server-json.o: json.c json.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/inttypes.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+ utils.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/syslog.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/syslog.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/syslog-path.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/ctype.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/math.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_val.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_valf.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_vall.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/inf.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/nan.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathinline.h
+
+json.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/inttypes.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitflags.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/waitstatus.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+utils.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/syslog.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/syslog.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/syslog-path.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/ctype.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/math.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_val.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_valf.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/huge_vall.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/inf.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/nan.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathdef.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathcalls.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/mathinline.h:

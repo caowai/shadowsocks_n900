@@ -1,0 +1,12 @@
+prefix=/home/pacino/n900_ssr/n900_shadowsocks-libev/target_rootfs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: shadowsocks-libev
+Description: a lightweight secured socks5 proxy
+URL: https://shadowsocks.org
+Version: 3.0.4
+Requires:
+Cflags: -I${includedir}
+Libs: -L${libdir} -lshadowsocks-libev -lcrypto

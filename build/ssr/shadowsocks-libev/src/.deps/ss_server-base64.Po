@@ -1,0 +1,57 @@
+ss_server-base64.o: base64.c ../config.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/limits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/syslimits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h \
+ base64.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h
+
+../config.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/limits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/syslimits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/xopen_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h:
+
+base64.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:

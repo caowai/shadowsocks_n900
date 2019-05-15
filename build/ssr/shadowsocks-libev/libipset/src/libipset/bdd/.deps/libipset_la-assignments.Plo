@@ -1,0 +1,258 @@
+src/libipset/bdd/libipset_la-assignments.lo: \
+ src/libipset/bdd/assignments.c ../libcork/include/libcork/core.h \
+ ../libcork/include/libcork/core/allocator.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h \
+ ../libcork/include/libcork/core/api.h \
+ ../libcork/include/libcork/config.h \
+ ../libcork/include/libcork/config/config.h \
+ ../libcork/include/libcork/config/version.h \
+ ../libcork/include/libcork/config/arch.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/param.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/limits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/syslimits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/param.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/param.h \
+ ../libcork/include/libcork/config/linux.h \
+ ../libcork/include/libcork/config/gcc.h \
+ ../libcork/include/libcork/core/attributes.h \
+ ../libcork/include/libcork/core/callbacks.h \
+ ../libcork/include/libcork/core/hash.h \
+ ../libcork/include/libcork/core/byte-order.h \
+ ../libcork/include/libcork/core/types.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/inttypes.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdbool.h \
+ ../libcork/include/libcork/core/u128.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h \
+ ../libcork/include/libcork/core/error.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h \
+ ../libcork/include/libcork/core/gc.h \
+ ../libcork/include/libcork/core/id.h \
+ ../libcork/include/libcork/core/mempool.h \
+ ../libcork/include/libcork/core/net-addresses.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h \
+ /home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h \
+ ../libcork/include/libcork/core/timestamp.h \
+ ../libcork/include/libcork/ds/buffer.h \
+ ../libcork/include/libcork/ds/managed-buffer.h \
+ ../libcork/include/libcork/ds/slice.h \
+ ../libcork/include/libcork/ds/stream.h \
+ ../libipset/include/ipset/bdd/nodes.h ../libcork/include/libcork/ds.h \
+ ../libcork/include/libcork/ds/array.h \
+ ../libcork/include/libcork/ds/bitset.h \
+ ../libcork/include/libcork/ds/dllist.h \
+ ../libcork/include/libcork/ds/hash-table.h \
+ ../libcork/include/libcork/ds/ring-buffer.h
+
+../libcork/include/libcork/core.h:
+
+../libcork/include/libcork/core/allocator.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/assert.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/features.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/predefs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/cdefs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wordsize.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/gnu/stubs.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdlib.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stddef.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/types.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/types.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/typesizes.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/time.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/endian.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/endian.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/byteswap.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/select.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/select.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sigset.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/time.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/sysmacros.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/pthreadtypes.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/alloca.h:
+
+../libcork/include/libcork/core/api.h:
+
+../libcork/include/libcork/config.h:
+
+../libcork/include/libcork/config/config.h:
+
+../libcork/include/libcork/config/version.h:
+
+../libcork/include/libcork/config/arch.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/sys/param.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/limits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include-fixed/syslimits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/limits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix1_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/local_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/limits.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/posix2_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/param.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/param.h:
+
+../libcork/include/libcork/config/linux.h:
+
+../libcork/include/libcork/config/gcc.h:
+
+../libcork/include/libcork/core/attributes.h:
+
+../libcork/include/libcork/core/callbacks.h:
+
+../libcork/include/libcork/core/hash.h:
+
+../libcork/include/libcork/core/byte-order.h:
+
+../libcork/include/libcork/core/types.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/inttypes.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdint.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/wchar.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdbool.h:
+
+../libcork/include/libcork/core/u128.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/stdio.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/libio.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/_G_config.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/wchar.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.1/include/stdarg.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio_lim.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/sys_errlist.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/stdio.h:
+
+../libcork/include/libcork/core/error.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/errno.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/errno.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/linux/errno.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm/errno.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/asm-generic/errno-base.h:
+
+../libcork/include/libcork/core/gc.h:
+
+../libcork/include/libcork/core/id.h:
+
+../libcork/include/libcork/core/mempool.h:
+
+../libcork/include/libcork/core/net-addresses.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/string.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/xlocale.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string.h:
+
+/home/pacino/n900_ssr/scratchbox/scratchbox/compilers/arm-linux-cs2010q1-202/bin/../arm-none-linux-gnueabi/libc/usr/include/bits/string2.h:
+
+../libcork/include/libcork/core/timestamp.h:
+
+../libcork/include/libcork/ds/buffer.h:
+
+../libcork/include/libcork/ds/managed-buffer.h:
+
+../libcork/include/libcork/ds/slice.h:
+
+../libcork/include/libcork/ds/stream.h:
+
+../libipset/include/ipset/bdd/nodes.h:
+
+../libcork/include/libcork/ds.h:
+
+../libcork/include/libcork/ds/array.h:
+
+../libcork/include/libcork/ds/bitset.h:
+
+../libcork/include/libcork/ds/dllist.h:
+
+../libcork/include/libcork/ds/hash-table.h:
+
+../libcork/include/libcork/ds/ring-buffer.h:

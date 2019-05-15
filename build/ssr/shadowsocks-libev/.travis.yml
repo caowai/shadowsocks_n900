@@ -1,0 +1,65 @@
+sudo: true
+language: c
+compiler:
+    - gcc
+    - clang
+env:
+    global:
+        - LIBSODIUM_VER=1.0.12
+        - MBEDTLS_VER=2.4.0
+before_install:
+    - wget https://github.com/jedisct1/libsodium/releases/download/$LIBSODIUM_VER/libsodium-$LIBSODIUM_VER.tar.gz
+    - tar xvf libsodium-$LIBSODIUM_VER.tar.gz
+    - pushd libsodium-$LIBSODIUM_VER
+    - ./configure --prefix=/usr && make
+    - sudo make install
+    - popd
+    - wget https://tls.mbed.org/download/mbedtls-$MBEDTLS_VER-gpl.tgz
+    - tar xvf mbedtls-$MBEDTLS_VER-gpl.tgz
+    - pushd mbedtls-$MBEDTLS_VER
+    - make SHARED=1
+    - sudo make install
+    - popd
+    # Load cached docker images
+    - if [[ -d $HOME/docker ]]; then ls $HOME/docker/*.tar.gz | xargs -I {file} sh -c "zcat {file} | docker load"; fi
+addons:
+    apt:
+        packages:
+            - autoconf
+            - autotools-dev
+            - libudns-dev
+            - libev-dev
+            - asciidoc
+            - xmlto
+script:
+    - ./autogen.sh
+    - ./configure && make
+    - cd build && cmake ../ && make
+    # Test cmake using our builder
+    # - cd docker/build && docker build -f builder.Dockerfile -t builder . && cd -
+    # - docker run --rm -it -v $PWD:/src -w /src builder sh -c /src/docker/build/dockerbuild.sh
+branches:
+    only:
+        - master
+notifications:
+    recipients:
+        - max.c.lv@gmail.com
+    email:
+        on_success: change
+        on_failure: always
+
+# Use cache to speedup next build
+services:
+  - docker
+
+before_cache:
+  # Save tagged docker images
+  - >
+    mkdir -p $HOME/docker && docker images -a --filter='dangling=false' --format '{{.Repository}}:{{.Tag}} {{.ID}}'
+    | xargs -n 2 -t sh -c 'test -e $HOME/docker/$1.tar.gz || docker save $0 | gzip -2 > $HOME/docker/$1.tar.gz'
+
+cache:
+  bundler: true
+  directories:
+    - $HOME/docker
+
