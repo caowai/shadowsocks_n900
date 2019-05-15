@@ -1,3 +1,5 @@
+#2019.05.15 Created by caowai (caowai@gmail.com) to build shadowsocks-libev for Nokia N900 Device
+
 SRCDIR=c-ares-1.14.0
 
 all:

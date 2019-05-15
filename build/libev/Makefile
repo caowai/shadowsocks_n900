@@ -1,3 +1,4 @@
+#2019.05.15 Created by caowai (caowai@gmail.com) to build shadowsocks-libev for Nokia N900 Device
 SRCDIR=libev-4.22/
 
 all:

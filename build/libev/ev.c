@@ -1511,6 +1511,7 @@ ecb_binary32_to_binary16 (uint32_t x)
  * alternatively, you can remove this #error and link against libpthread,
  * which will then provide the memory fences.
  */
+//2019.05.15 Removed by caowai (caowai@gmail.com) to build shadowsocks-libev for Nokia N900 Device
 //# error "memory fences not defined for your architecture, please report"
 #endif
 

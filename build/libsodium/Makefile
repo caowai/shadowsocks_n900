@@ -1,3 +1,4 @@
+#2019.05.15 Created by caowai (caowai@gmail.com) to build shadowsocks-libev for Nokia N900 Device
 SRCDIR=libsodium-1.0.16
 
 all:
