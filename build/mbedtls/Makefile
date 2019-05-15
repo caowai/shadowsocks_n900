@@ -13,9 +13,6 @@ install:
 	make install &&\
 	popd;
 
-
-configflag:=$(shell echo `ls $SRCDIR/Makefile 2>/dev/null`)
-
 clean:
 	rm -rf build $(SRCDIR)
 

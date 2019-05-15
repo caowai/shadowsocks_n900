@@ -12,16 +12,7 @@ install:
 	@pushd $(SRCDIR) &&\
 	make install &&\
 	popd;
-
-
-configflag:=$(shell echo `ls $SRCDIR/Makefile 2>/dev/null`)
-
 clean:
-ifneq ($(configflag),)
-	@pushd $(SRCDIR) &&\
-	make distclean &&\
-	popd;
-endif
 	rm -rf $(SRCDIR)
 
 

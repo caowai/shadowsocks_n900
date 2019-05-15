@@ -11,13 +11,13 @@ install:
 	popd;
 
 
-configflag:=$(shell echo `ls $SRCDIR/Makefile 2>/dev/null`)
+configflag:=$(shell echo `ls shadowsocks-libev/Makefile 2>/dev/null`)
 
 clean:
+ifneq ($(configflag),)
 	@pushd $(SRCDIR) &&\
-	make clean &&\
+	make distclean &&\
 	popd;
-
-
+endif
 
 
